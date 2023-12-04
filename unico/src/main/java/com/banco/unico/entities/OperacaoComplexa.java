@@ -31,4 +31,8 @@ public class OperacaoComplexa {
     @ManyToOne
     @JoinColumn(name = "conta_destino", foreignKey = @ForeignKey(name = "conta_destino_fkey"))
     private Conta conta_destino;
+
+    public static boolean isEmpty() {
+        return false;
+    }
 }

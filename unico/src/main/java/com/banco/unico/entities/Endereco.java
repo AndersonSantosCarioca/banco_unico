@@ -31,4 +31,8 @@ public class Endereco {
 
     @OneToOne(mappedBy = "endereco")
     private Funcionario funcionario;
+
+    public static Endereco getEnderecoByCep(String cep2) {
+        return null;
+    }
 }
